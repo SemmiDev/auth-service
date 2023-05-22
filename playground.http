@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/v1/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "example@gmail.com"
+}
+
+###
+GET http://localhost:8080/api/v1/otp?code=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc5MzkwMmY0LWI0NmYtNDk4YS04NGQxLWIwMjdkYzExMWQ2YyIsImVtYWlsIjoic2FtbWlkZXY0QGdtYWlsLmNvbSIsImtpbmQiOiJvdHAiLCJpc3N1ZWRfYXQiOiIyMDIzLTA1LTIxVDA5OjUyOjM2LjgwNzUwMTUxMSswNzowMCIsImV4cGlyZWRfYXQiOiIyMDIzLTA1LTIxVDA5OjU3OjM2LjgwNzUwMTU3NyswNzowMCJ9.NFHG_XDs5pGJ2j3x6eYT9mxw8WIritg1U83Z03-YLtA
+Accept: application/json
